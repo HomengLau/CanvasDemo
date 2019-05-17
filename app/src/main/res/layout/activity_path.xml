@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:id="@+id/path_lineTo"
+		style="@style/TextViewBtnStyle"
+		android:text="lineTo"/>
+	<TextView
+		android:id="@+id/path_quadTo"
+		style="@style/TextViewBtnStyle"
+		android:text="quadTo"/>
+	<TextView
+		android:id="@+id/path_arcTo"
+		style="@style/TextViewBtnStyle"
+		android:text="arcTo"/>
+	<TextView
+		android:id="@+id/path_moveTo"
+		style="@style/TextViewBtnStyle"
+		android:text="moveTo"/>
+	<TextView
+		android:id="@+id/path_cubicTo"
+		style="@style/TextViewBtnStyle"
+		android:text="cubicTo"/>
+	<TextView
+		android:id="@+id/path_addRect"
+		style="@style/TextViewBtnStyle"
+		android:text="addRect"/>
+	<TextView
+		android:id="@+id/path_addOval"
+		style="@style/TextViewBtnStyle"
+		android:text="addOval"/>
+	<TextView
+		android:id="@+id/path_addCircle"
+		style="@style/TextViewBtnStyle"
+		android:text="addCircle"/>
+	<TextView
+		android:id="@+id/path_addArc"
+		style="@style/TextViewBtnStyle"
+		android:text="addArc"/>
+	<TextView
+		android:id="@+id/path_addRoundRect"
+		style="@style/TextViewBtnStyle"
+		android:text="addRoundRect"/>
+	<TextView
+		style="@style/TextViewBtnStyle"
+		android:text="close"/>
+	<!--
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="moveTo"/>-->
+
+</LinearLayout>
